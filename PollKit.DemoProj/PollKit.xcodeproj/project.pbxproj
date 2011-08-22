@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6317241C14026D260077D4C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6317241B14026D260077D4C3 /* UIKit.framework */; };
+		6317241E14026D260077D4C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6317241D14026D260077D4C3 /* Foundation.framework */; };
+		6317242014026D260077D4C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6317241F14026D260077D4C3 /* CoreGraphics.framework */; };
+		6317242614026D260077D4C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6317242414026D260077D4C3 /* InfoPlist.strings */; };
+		6317242914026D260077D4C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6317242814026D260077D4C3 /* main.m */; };
+		6317242C14026D260077D4C3 /* PollKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6317242B14026D260077D4C3 /* PollKitAppDelegate.m */; };
+		6317242F14026D260077D4C3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6317242D14026D260077D4C3 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6317241714026D260077D4C3 /* PollKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PollKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6317241B14026D260077D4C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6317241D14026D260077D4C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6317241F14026D260077D4C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6317242314026D260077D4C3 /* PollKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PollKit-Info.plist"; sourceTree = "<group>"; };
+		6317242514026D260077D4C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6317242714026D260077D4C3 /* PollKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PollKit-Prefix.pch"; sourceTree = "<group>"; };
+		6317242814026D260077D4C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6317242A14026D260077D4C3 /* PollKitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PollKitAppDelegate.h; sourceTree = "<group>"; };
+		6317242B14026D260077D4C3 /* PollKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PollKitAppDelegate.m; sourceTree = "<group>"; };
+		6317242E14026D260077D4C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6317241414026D260077D4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6317241C14026D260077D4C3 /* UIKit.framework in Frameworks */,
+				6317241E14026D260077D4C3 /* Foundation.framework in Frameworks */,
+				6317242014026D260077D4C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6317240C14026D260077D4C3 = {
+			isa = PBXGroup;
+			children = (
+				6317242114026D260077D4C3 /* PollKit */,
+				6317241A14026D260077D4C3 /* Frameworks */,
+				6317241814026D260077D4C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6317241814026D260077D4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6317241714026D260077D4C3 /* PollKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6317241A14026D260077D4C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6317241B14026D260077D4C3 /* UIKit.framework */,
+				6317241D14026D260077D4C3 /* Foundation.framework */,
+				6317241F14026D260077D4C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6317242114026D260077D4C3 /* PollKit */ = {
+			isa = PBXGroup;
+			children = (
+				6317242A14026D260077D4C3 /* PollKitAppDelegate.h */,
+				6317242B14026D260077D4C3 /* PollKitAppDelegate.m */,
+				6317242D14026D260077D4C3 /* MainWindow.xib */,
+				6317242214026D260077D4C3 /* Supporting Files */,
+			);
+			path = PollKit;
+			sourceTree = "<group>";
+		};
+		6317242214026D260077D4C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6317242314026D260077D4C3 /* PollKit-Info.plist */,
+				6317242414026D260077D4C3 /* InfoPlist.strings */,
+				6317242714026D260077D4C3 /* PollKit-Prefix.pch */,
+				6317242814026D260077D4C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6317241614026D260077D4C3 /* PollKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6317243214026D260077D4C3 /* Build configuration list for PBXNativeTarget "PollKit" */;
+			buildPhases = (
+				6317241314026D260077D4C3 /* Sources */,
+				6317241414026D260077D4C3 /* Frameworks */,
+				6317241514026D260077D4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PollKit;
+			productName = PollKit;
+			productReference = 6317241714026D260077D4C3 /* PollKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6317240E14026D260077D4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Welltime Ltd";
+			};
+			buildConfigurationList = 6317241114026D260077D4C3 /* Build configuration list for PBXProject "PollKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6317240C14026D260077D4C3;
+			productRefGroup = 6317241814026D260077D4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6317241614026D260077D4C3 /* PollKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6317241514026D260077D4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6317242614026D260077D4C3 /* InfoPlist.strings in Resources */,
+				6317242F14026D260077D4C3 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6317241314026D260077D4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6317242914026D260077D4C3 /* main.m in Sources */,
+				6317242C14026D260077D4C3 /* PollKitAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6317242414026D260077D4C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6317242514026D260077D4C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6317242D14026D260077D4C3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6317242E14026D260077D4C3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6317243014026D260077D4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6317243114026D260077D4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6317243314026D260077D4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PollKit/PollKit-Prefix.pch";
+				INFOPLIST_FILE = "PollKit/PollKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6317243414026D260077D4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PollKit/PollKit-Prefix.pch";
+				INFOPLIST_FILE = "PollKit/PollKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6317241114026D260077D4C3 /* Build configuration list for PBXProject "PollKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6317243014026D260077D4C3 /* Debug */,
+				6317243114026D260077D4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6317243214026D260077D4C3 /* Build configuration list for PBXNativeTarget "PollKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6317243314026D260077D4C3 /* Debug */,
+				6317243414026D260077D4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6317240E14026D260077D4C3 /* Project object */;
+}
